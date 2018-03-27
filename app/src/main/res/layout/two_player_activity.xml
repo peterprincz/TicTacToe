@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    tools:context="com.example.kocka.tictictoe.TwoPlayerActivity">
+
+    <ImageView
+        android:id="@+id/imageview2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.110000014"
+        app:srcCompat="@drawable/wallpaper" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:stretchColumns="*"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TableRow
+                android:id="@+id/tableRow0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="35dp"
+                android:paddingTop="35dp">
+
+                <Button
+                    android:id="@+id/buttonField0"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:background="@android:drawable/checkbox_off_background"
+                    android:elevation="0dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                    tools:layout_marginRight="5dp" />
+
+                <Button
+                    android:id="@+id/buttonField1"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:background="@android:drawable/checkbox_off_background"
+                    android:elevation="0dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                    tools:layout_marginRight="5dp" />
+
+
+                <Button
+                    android:id="@+id/buttonField2"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:background="@android:drawable/checkbox_off_background"
+                    android:elevation="0dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                    tools:layout_marginRight="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="35dp"
+                android:paddingTop="35dp">
+
+                <Button
+                    android:id="@+id/buttonField3"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:background="@android:drawable/checkbox_off_background"
+                    android:elevation="0dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                    tools:layout_marginRight="5dp" />
+
+                <Button
+                    android:id="@+id/buttonField4"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:background="@android:drawable/checkbox_off_background"
+                    android:elevation="0dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                    tools:layout_marginRight="5dp" />
+
+                <Button
+                    android:id="@+id/buttonField5"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:background="@android:drawable/checkbox_off_background"
+                    android:elevation="0dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                    tools:layout_marginRight="5dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/talbeRow2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="35dp"
+                android:paddingTop="35dp">
+
+                <Button
+                    android:id="@+id/buttonField6"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:background="@android:drawable/checkbox_off_background"
+                    android:elevation="0dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                    tools:layout_marginRight="5dp" />
+
+                <Button
+                    android:id="@+id/buttonField7"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:background="@android:drawable/checkbox_off_background"
+                    android:elevation="0dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                    tools:layout_marginRight="5dp" />
+
+                <Button
+                    android:id="@+id/buttonField8"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:background="@android:drawable/checkbox_off_background"
+                    android:elevation="0dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                    tools:layout_marginRight="5dp" />
+            </TableRow>
+
+        </TableLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
